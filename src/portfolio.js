@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Suni Nguyen",
+  title: "Hi, I'm Sony",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Senior Android Developer with 9+ years of experience building high-quality mobile applications using Kotlin, Java, Jetpack Compose, Clean Architecture, and other modern Android tools and frameworks. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1APGzIPz2b1vXQkTZTFDq30jA965iNAyZ/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ninguyen94",
+  linkedin: "https://www.linkedin.com/in/suni-nguyen/",
+  gmail: "nguyensuni1194@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE ANDROID DEVELOPER EXPLORING CLEAN ARCHITECTURE AND MODERN UI TOOLKITS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build robust and scalable Android applications using Kotlin and Jetpack libraries"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Design clean architecture with modular codebases to improve maintainability and testing"
+    ),
+    emoji(
+      "⚡ Implement modern UI with Jetpack Compose and follow best practices in Android development"
+    ),
+    emoji(
+      "⚡ Integrate third-party services like Firebase, RESTful APIs, and push notifications"
     )
   ],
 
@@ -64,58 +69,7 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +80,13 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "FPT University",
+      logo: require("./assets/images/fpt.png"),
+      subHeader: "Bachelor of Information Technology",
+      duration: "September 2012 - December 2016",
+      desc: "Software Engineering",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,16 +97,32 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Android Development (Kotlin / Java / Jetpack)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Architecture & Design Patterns (MVVM, MVI, Clean Architecture)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Backend & Cloud Services (Firebase / AWS)",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Testing (JUnit / Espresso / Mockito / Robolectric)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "DevOps & CI/CD (GitHub Actions / Jenkins / Bitrise)",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Databases (Room / SQLite / Firebase / Realm)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Web & Scripting (JavaScript / Python)",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,30 +134,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Android Developer",
+      company: "PlayNext Lab Inc.",
+      companylogo: require("./assets/images/playnext.png"),
+      date: "March 2018 – June 2025",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Led the development of core features for large-scale Android apps such as J.Score, My Sony, and Elgana, impacting thousands of end-users.",
+        "Refactored legacy codebases into Clean Architecture across 3 major projects, increasing unit test coverage from 25% to 85% and reducing crash rates by 40%.",
+        "Implemented a camera-based eKYC verification flow, enhancing security and regulatory compliance for a financial application.",
+        "Developed and optimized BLE beacon scanning and background processing, resulting in a 3x increase in user engagement with location-based promotions.",
+        "Integrated WebSocket communication for real-time messaging and task updates with custom protocols.",
+        "Participated in quarterly security audits and implemented critical features such as certificate pinning and device attestation, helping achieve ISO/IEC 27001 compliance.",
+        "Collaborated closely with Japanese product managers and QA teams to ensure compliance with financial, legal, and quality standards.",
+        "Mentored junior developers, contributed to architectural decisions, and streamlined onboarding through modularization."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Android Developer",
+      company: "FPT Software",
+      companylogo: require("./assets/images/fsoft.png"),
+      date: "June 2015 - March 2017",
+      desc: "",
+      descBullets: [
+        "Contributed to the development of Smart TV and voice assistant apps for international B2C clients, enhancing cross-platform user experiences.",
+        "Collaborated within fast-paced agile teams, following professional development workflows, Git practices, and maintaining clear technical documentation.",
+        "Improved UX through UI refinements and accessibility enhancements, while resolving high-priority bugs under tight release schedules to ensure timely delivery."
+      ]}
   ]
 };
 
@@ -212,29 +175,40 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Companies Where I Contributed to Building Their Technology",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/elgana.png"),
+      projectName: "Elgana – NTT Group (Enterprise Messaging App)",
+      projectDesc: "Contributed to the development of Elgana, an enterprise-grade messaging app by NTT Group with 1M+ downloads, focusing on performance optimization and secure communication features such as WebSocket integration and encrypted local storage.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "App in Play Store",
+          url: "https://play.google.com/store/apps/details?id=jp.co.ntt.neomeit.elgana&hl=en_US"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/mysony.webp"),
+      projectName: "My Sony – Sony Corporation",
+      projectDesc: "Developed key features for the My Sony app, enhancing customer engagement through personalized content, promotional offers, and support tools. Helped refactor core modules using Clean Architecture.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "App in Play Store",
+          url: "https://play.google.com/store/apps/details?id=jp.co.sony.swish&hl==en_US"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/jscore.png"),
+      projectName: "J.Score – AI Credit Scoring & Loan App",
+      projectDesc: "Played a major role in building the J.Score app, an AI-powered credit scoring and personal loan service by SoftBank & Mizuho. Implemented eKYC flows, improved app security with device attestation and certificate pinning, and contributed to regulatory compliance.",
+      footerLink: [
+        {
+          name: "App in Play Store",
+          url: "https://play.google.com/store/apps/details?id=jp.co.jscore.android.app&hl=en_US"
         }
       ]
     }
@@ -246,57 +220,36 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Honors And Awards 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "MVP of the Year – 2023",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Recognized as the Most Valuable Performer for exceptional contributions and impact across multiple Android projects at PlayNext Lab Inc.",
+      image: require("./assets/images/playnext.png"),
+      imageAlt: "logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Full 4-Year University Scholarship",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Awarded for outstanding academic performance throughout high school; top-tier merit-based scholarship granted to nationally ranked students.",
+      image: require("./assets/images/scholarship.png"),
+      imageAlt: "logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "INTEL ISEF Vietnam 2012",
+      subtitle: "First Prize in National Contest about science for high school student",
+      image: require("./assets/images/intel.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
       ]
     }
   ],
@@ -371,9 +324,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "My Inbox is open for all.",
+  number: "+1-530-570-0282",
+  email_address: "nguyensuni1194@gmail.com"
 };
 
 // Twitter Section
